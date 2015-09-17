@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *ThisLabel;
+@property (weak, nonatomic) IBOutlet UILabel *labebutton;
 
 @end
 
